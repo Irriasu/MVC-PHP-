@@ -1,0 +1,162 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+/* Change the style of the scrolling bar */
+::-webkit-scrollbar {
+   width: 8px;
+   height: 8px;
+ }
+ 
+ /* Change the background color of the scrolling bar */
+ ::-webkit-scrollbar-track {
+   background-color: var(--bgColor-2);
+ }
+ 
+ /* Change the color of the thumb of the scrolling bar */
+ ::-webkit-scrollbar-thumb {
+   background-color: var(--secondaryColor);
+   border-radius: 200px;
+ }
+
+
+  
+ :root{
+   --primaryColor:#ff8308 ;
+   --secondaryColor:#ff942a ;
+   --lightColor:#f3f6f4;
+   --bgColor-1:#121212;
+   --bgColor-2:#3b3737;
+   --padding: 8%;
+ }
+
+
+ html{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: var(--lightColor);
+ }
+
+section{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ h1{
+   font-size: 4.65rem;
+   
+}
+
+h2{
+   font-size: 2.2rem;
+   letter-spacing: 0.12rem;
+   cursor:pointer;
+}
+
+h2{
+   font-size: 1.5rem;
+}
+
+h3{
+   font-size: 1.25rem;
+   letter-spacing: 0.12rem;
+   margin-bottom: 3.5rem;
+}
+
+h4{
+   font-size: 1.37rem;
+   margin-bottom: 1.5rem;
+   letter-spacing: 2px;
+}
+
+h5{
+   font-size: 1.37rem;
+   margin-bottom: 1.5rem;
+   letter-spacing: 2px;
+}
+
+p{
+   color: var(--lightColor);
+   letter-spacing: 1px;
+   line-height: 1.5rem;
+   font-size: 1rem;
+   margin-left:5px ;
+}
+
+span{
+   color: var(--secondaryColor);
+}
+
+a{
+color: transparent;
+}
+
+header{
+background-color: var(--bgColor-1);
+min-height: 60px;
+}
+
+footer{
+padding: 1rem var(--padding);
+display: flex;
+align-items: center;
+background-color: var(--bgColor-1);
+min-height: 120px;
+}
+
+
+nav{
+padding: 2rem var(--padding);
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: var(--bgColor-1);
+}
+
+nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   margin:0.8rem 1.5rem;
+}
+
+nav ul li a{
+   color: var(--lightColor);
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: 0.4s;
+}
+
+nav ul li a:hover{
+   color: var(--secondaryColor);
+}
+
+.logo{
+    width: 130px;
+}
+
+.list{
+    background-color: var(--bgColor-2);
+    height:100vh;
+}
+.single{
+    background-color: var(--bgColor-2);
+    height:100vh;
+}
+.form{
+   background-color: var(--bgColor-2);
+   height:100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+      
+      
+   }
+
+
